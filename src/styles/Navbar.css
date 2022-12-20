@@ -1,0 +1,11 @@
+.navbar {
+    background: yellowgreen;
+    height: 75px;
+}
+
+.navbar a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 25px;
+}

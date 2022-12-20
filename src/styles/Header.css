@@ -1,0 +1,15 @@
+.header {
+    background: linear-gradient(to right, black, grey, silver);
+    height: 200px;    
+}
+
+.header h1 {
+    color: white;
+    text-align: center;
+    padding: 75px;
+    font-size: 40px
+}
+
+body {
+    margin: 0px;
+}
