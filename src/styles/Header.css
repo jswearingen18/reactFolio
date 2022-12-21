@@ -1,10 +1,9 @@
 .header {
-    background: linear-gradient(to right, black, grey, silver);
-    height: 200px;    
+    background: #70AE6E;
+    height: 200px;   
 }
 
 .header h1 {
-    color: white;
     text-align: center;
     padding: 75px;
     font-size: 40px
@@ -12,4 +11,23 @@
 
 body {
     margin: 0px;
+}
+
+.header h1 {
+    animation: background-pan 8s linear infinite;
+    background: linear-gradient(to right, #483C46, #3C6E71, #70AE6E, #BEEE62, #F4743B );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: -200% center;
+    }
 }

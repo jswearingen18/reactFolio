@@ -1,11 +1,18 @@
 .navbar {
-    background: yellowgreen;
-    height: 75px;
+    background: #BEEE62;
+    height: 40px;
+    display: inline flex;
+    text-align: right;
 }
 
 .navbar a {
-    color: black;
     font-size: 30px;
     text-decoration: none;
     margin: 25px;
+    animation: background-pan 4s linear infinite;
+    background: linear-gradient(to right, #483C46, #3C6E71, #70AE6E, #BEEE62, #F4743B );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
 }

@@ -1,0 +1,103 @@
+.images {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid 5px;
+    border-color: #483C46;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4743B;
+}
+
+.images a {
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    text-decoration: none;
+}
+
+.image1 {
+    height: 400px;
+    width: 600px;
+    margin: 90px;
+    border: solid 7px;
+    border-color: #3C6E71;
+    border-radius: 25px;
+    background-image: url(https://tech.balodia.com/wp-content/uploads/2020/09/programming-funny-jokes-e1600486875722.jpg);
+    background-size: cover;
+}
+
+.image1 a {
+    border: solid 3px;
+    border-color: #483C46;
+    background-color: #BEEE62;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+.image2 {
+    height: 400px;
+    width: 600px;
+    margin: 90px;
+    border: solid 7px;
+    border-color: #3C6E71;
+    border-radius: 25px;
+    background-image: url(https://miro.medium.com/max/1200/0*frNLBZIBMVGMssqx.jpg);
+    background-size: 600px 400px;
+}
+
+.image2 a {
+    border: solid 3px;
+    border-color: #483C46;
+    background-color: #BEEE62;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+.image3 {
+    height: 400px;
+    width: 600px;
+    margin: 90px;
+    border: solid 7px;
+    border-color: #3C6E71;
+    border-radius: 25px;
+    background-image: url(https://www.springboard.com/blog/wp-content/uploads/2019/07/sb-blog-programming.png);
+    background-size: 600px 400px;
+}
+
+.image3 a {
+    border: solid 3px;
+    border-color: #483C46;
+    background-color: #BEEE62;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+.image4 {
+    height: 400px;
+    width: 600px;
+    margin: 90px;
+    border: solid 7px;
+    border-color: #3C6E71;
+    border-radius: 25px;
+}
+
+.image5 {
+    height: 400px;
+    width: 600px;
+    margin: 90px;
+    border: solid 7px;
+    border-color: #3C6E71;
+    border-radius: 25px;
+}
+
+.image6 {
+    height: 400px;
+    width: 600px;
+    margin: 90px;
+    border: solid 7px;
+    border-color: #3C6E71;
+    border-radius: 25px;
+}
