@@ -16,12 +16,30 @@ function Portfolio() {
       </div>
       <div className="image3">
         <div className="imgborder">
-          <a href="https://jswearingen18.github.io/JSwearProfile/">HTML + CSS Portfolio</a>
+          <a href="https://jswearingen18.github.io/JSwearProfile/">
+            HTML + CSS Portfolio
+          </a>
         </div>
       </div>
-      <div className="image4"></div>
-      <div className="image5"></div>
-      <div className="image6"></div>
+      <div className="image4">
+        <div className="imgborder">
+          <a href="https://jswearingen18.github.io/PasswordGenie/">
+            PasswordGenie
+          </a>
+        </div>
+      </div>
+      <div className="image5">
+        <div className="imgborder">
+          <a href="https://jswearingen18.github.io/Side-Beat/">SideBe@t</a>
+        </div>
+      </div>
+      <div className="image6">
+        <div className="imgborder">
+          <a href="https://jswearingen18.github.io/CalendarScheduler/">
+            CalendarScheduler
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
