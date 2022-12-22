@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import "../../styles/ContactMe.css";
 import { validateEmail } from "../../utils/helpers";
 
-function Form() {
+function ContactMe() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const contactInput = (event) => {
@@ -70,4 +69,4 @@ const styles = {
 }
 };
 
-export default Form;
+export default ContactMe;
