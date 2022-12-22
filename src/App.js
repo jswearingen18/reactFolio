@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
-import Portfolio from "./components/Portfolio";
+import AboutMe from "./components/pages/AboutMe";
+import Portfolio from "./components/pages/Portfolio";
+import ContactMe from "./components/pages/ContactMe";
 
 function App() {
   return (
     <div>
       <Header />
-      <Navbar />
       <AboutMe />
       <Portfolio />
+      <ContactMe />
     </div>
   );
 }

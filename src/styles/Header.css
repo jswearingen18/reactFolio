@@ -1,6 +1,15 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
 .header {
     background: #70AE6E;
-    height: 200px;   
+    height: 200px;  
+    margin: 0px; 
 }
 
 .header h1 {
@@ -9,12 +18,28 @@
     font-size: 40px
 }
 
-body {
-    margin: 0px;
-}
-
 .header h1 {
     animation: background-pan 8s linear infinite;
+    background: linear-gradient(to right, #483C46, #3C6E71, #70AE6E, #BEEE62, #F4743B );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+.navbar {
+    background: #BEEE62;
+    height: 40px;
+    display: inline flex;
+    text-align: right;
+    margin-top: 0px;
+}
+
+.navbar a {
+    font-size: 30px;
+    text-decoration: none;
+    margin: 25px;
+    animation: background-pan 4s linear infinite;
     background: linear-gradient(to right, #483C46, #3C6E71, #70AE6E, #BEEE62, #F4743B );
     background-size: 200%;
     -webkit-background-clip: text;

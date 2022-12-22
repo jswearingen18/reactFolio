@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/AboutMe.css";
+import "../../styles/AboutMe.css";
 
 const styles = {
   aboutmeStyle: {
@@ -10,10 +10,10 @@ const styles = {
   },
   aboutMeText: {
     fontSize: "25px",
-  },
-};
+ },
+}; 
 
-function AboutMe() {
+export default function AboutMe() {
   return (
     <div style={styles.aboutmeStyle} className="aboutMe">
       <h1 style={styles.aboutMeHeader}>About Jeremiah Swearingen</h1>
@@ -31,5 +31,3 @@ function AboutMe() {
     </div>
   );
 }
-
-export default AboutMe;

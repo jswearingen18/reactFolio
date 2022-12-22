@@ -1,0 +1,11 @@
+.contactMe {
+    border: solid 5px;
+    border-color: #483C46;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+    padding: 35px;
+    margin-top: 50px;
+    color: #3C6E71;
+    border-radius: 20px;
+}
