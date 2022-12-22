@@ -4,9 +4,10 @@ import AboutMe from "./pages/AboutMe";
 import ContactMe from "./pages/ContactMe";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import PageContent from "./PageContent";
 
 export default function Profile() {
-  const [currentPage, setCurrentPage] = useState("Portfolio");
+  const [currentPage, setCurrentPage] = useState("AboutMe");
 
   const renderPage = () => {
     if (currentPage === "Portfolio") {
@@ -18,15 +19,20 @@ export default function Profile() {
     if (currentPage === "ContactMe") {
       return <ContactMe />;
     }
-    return <Resume />;
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
   };
 
-  const changePage = (page) => setCurrentPage(page);
+  const changePage = (page) => {
+    console.log(page);
+    setCurrentPage(page);
+  }
 
   return (
     <div>
       <Header currentPage={currentPage} changePage={changePage} />
-      {renderPage()}
+      <PageContent>{renderPage()}</PageContent>
     </div>
   );
 }

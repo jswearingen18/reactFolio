@@ -43,6 +43,7 @@ const styles = {
   contactMeText: {
     fontSize: "25px",
   },
+}
 
   return (
     <div className="contactMe" style={styles.contactMeStyle}>
@@ -66,7 +67,7 @@ const styles = {
       <h2 style={styles.contactMeHeader}>Phone: (931)449-9642</h2>
     </div>
   );
-}
+
 };
 
 export default ContactMe;

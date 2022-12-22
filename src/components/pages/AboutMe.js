@@ -10,8 +10,8 @@ const styles = {
   },
   aboutMeText: {
     fontSize: "25px",
- },
-}; 
+  },
+};
 
 export default function AboutMe() {
   return (
@@ -25,8 +25,8 @@ export default function AboutMe() {
         beginning my journey as a full stack developer. I enjoy both front-end
         and back-end so would really love to work doing both.
       </p>
-      <a href="/" className="fa fa-github icons"></a>
-      <a href="/" className="fa fa-linkedin icons"></a>
+      <a href="https://github.com/jswearingen18" className="fa fa-github icons"></a>
+      <a href="https://www.linkedin.com/in/jeremiah-swearingen-021985244/" className="fa fa-linkedin icons"></a>
       <a href="/" className="fa fa-stack-overflow icons"></a>
     </div>
   );
