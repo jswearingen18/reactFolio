@@ -9,3 +9,39 @@
     color: #3C6E71;
     border-radius: 20px;
 }
+
+form {
+    height: 150px;
+    margin-left: 100px;
+}
+
+.formBox {
+    text-align: center;
+}
+
+.formInput {
+    height: 30px;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;;
+}
+
+.formMessage {
+    height: 275px;
+    width: 500px;
+    position: relative;
+    bottom: 125px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.submitBtn {
+    position: relative;
+    bottom: 125px;
+    left: 100px;
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+}

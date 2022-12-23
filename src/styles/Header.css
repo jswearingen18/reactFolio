@@ -1,15 +1,15 @@
 * {
     margin: 0px;
 }
-
-body {
-    margin: 0px;
-}
+ body {
+    display: flex;
+    flex-direction: column;
+ }
 
 .header {
     background: #70AE6E;
     height: 200px;  
-    margin: 0px; 
+    margin: 0px;
 }
 
 .header h1 {
@@ -29,13 +29,17 @@ body {
 
 .navbar {
     background: #BEEE62;
-    height: 40px;
+    height: 60px;
     display: inline flex;
     text-align: right;
     margin-top: 0px;
 }
+ 
+ul {
+    padding-top: 12px;
+}
 
-.navbar a {
+.navbar li {
     font-size: 30px;
     text-decoration: none;
     margin: 25px;
@@ -45,6 +49,28 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
+    list-style-type: none;
+    display: inline;
+}
+
+:hover .navbar li {
+    cursor: pointer
+}
+
+footer {
+    background: #70AE6E;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer a {
+    color: #3C6E71;
+    text-decoration: none;
+    margin: 25px;
+    padding-left: 15px;
 }
 
 @keyframes background-pan {

@@ -4,6 +4,7 @@ import AboutMe from "./components/pages/AboutMe";
 import Portfolio from "./components/pages/Portfolio";
 import ContactMe from "./components/pages/ContactMe";
 import Profile from "./components/Profile";
+import Resume from "./components/pages/Resume";
 
 function App() {
   return (
