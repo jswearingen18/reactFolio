@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/jswearingen18/reactFolio/static/css/main.48128737.css",
-    "main.js": "/jswearingen18/reactFolio/static/js/main.a33fc802.js",
-    "index.html": "/jswearingen18/reactFolio/index.html",
-    "main.48128737.css.map": "/jswearingen18/reactFolio/static/css/main.48128737.css.map",
-    "main.a33fc802.js.map": "/jswearingen18/reactFolio/static/js/main.a33fc802.js.map"
+    "main.css": "/reactFolio/static/css/main.48128737.css",
+    "main.js": "/reactFolio/static/js/main.a33fc802.js",
+    "index.html": "/reactFolio/index.html",
+    "main.48128737.css.map": "/reactFolio/static/css/main.48128737.css.map",
+    "main.a33fc802.js.map": "/reactFolio/static/js/main.a33fc802.js.map"
   },
   "entrypoints": [
     "static/css/main.48128737.css",
