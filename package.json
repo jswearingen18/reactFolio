@@ -2,7 +2,7 @@
   "name": "reactfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jswearingen18/reactFolio",
+  "homepage": "https://jswearingen18.github.io/reactFolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

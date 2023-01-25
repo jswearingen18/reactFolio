@@ -16,9 +16,7 @@ function Portfolio() {
       </div>
       <div className="image3">
         <div className="imgborder">
-          <a href="https://jswearingen18.github.io/JSwearProfile/">
-            HTML + CSS Portfolio
-          </a>
+          <a href="https://aura-travel.herokuapp.com/">Aura-Travel Site</a>
         </div>
       </div>
       <div className="image4">
